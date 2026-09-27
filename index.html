@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Dynamic Website</title>
+</head>
+
+<body>
+
+    <h1>My Dynamic Web Page</h1>
+
+    <p id="message">Welcome to my website!</p>
+
+    <button onclick="changeMessage()">Click Me</button>
+
+    <script>
+        function changeMessage() {
+            document.getElementById("message").innerHTML =
+                "Hello! This content is changed dynamically using JavaScript.";
+        }
+    </script>
+
+</body>
+</html>
